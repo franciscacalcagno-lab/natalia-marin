@@ -1,0 +1,349 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+  font-family: 'Oswald', sans-serif;
+  background: #f4f0ea;
+  color: #222;
+}
+
+/* HERO */
+
+.hero{
+  height: 100vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("./images/foto.fondo.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+nav h1{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav a:hover{
+  color: #d4b483;
+}
+
+.hero-content{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h2{
+  font-size: 70px;
+  max-width: 800px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-content p{
+  margin-top: 20px;
+  font-size: 22px;
+  max-width: 700px;
+}
+
+.btn{
+  margin-top: 30px;
+  background: #d4b483;
+  color: black;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background: white;
+}
+
+/* BIO */
+
+.bio{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 10%;
+  background: white;
+}
+
+.bio-img img{
+  width: 380px;
+  border-radius: 20px;
+}
+
+.bio-text h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.bio-text p{
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* FIELTRO */
+
+.fieltro{
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.fieltro h2{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.fieltro p{
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.cards{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  background: white;
+  padding: 40px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.card h3{
+  margin-bottom: 15px;
+}
+
+/* OBRAS */
+
+.obras{
+  padding: 100px 10%;
+  background: #ede5dc;
+}
+
+.obras h2{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.galeria{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.obra{
+  background: white;
+  width: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.obra img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.obra h3{
+  padding: 20px 20px 10px;
+}
+
+.obra p{
+  padding: 0 20px;
+}
+
+.obra span{
+  display: block;
+  padding: 20px;
+  font-size: 24px;
+  color: #8b5e3c;
+}
+
+/* TALLERES */
+
+.talleres{
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.talleres h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.info-talleres{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.taller-box{
+  background: white;
+  padding: 40px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.taller-box span{
+  display: block;
+  margin-top: 20px;
+  font-size: 28px;
+  color: #8b5e3c;
+}
+
+/* INSCRIPCION */
+
+.inscripcion{
+  background: #2e2a27;
+  color: white;
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.inscripcion h2{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.pasos{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.paso{
+  width: 280px;
+}
+
+.paso h3{
+  font-size: 60px;
+  color: #d4b483;
+}
+
+/* CONTACTO */
+
+.contacto{
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.contacto h2{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+form{
+  max-width: 700px;
+  margin: auto;
+}
+
+input,
+textarea{
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+textarea{
+  height: 180px;
+}
+
+button{
+  padding: 15px 40px;
+  border: none;
+  border-radius: 40px;
+  background: #d4b483;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 900px){
+
+  .bio{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content h2{
+    font-size: 45px;
+  }
+
+  nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
